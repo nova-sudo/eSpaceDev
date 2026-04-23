@@ -1,0 +1,20 @@
+{
+  "name": "espacedev",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Mock dev service",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "vitest run",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "eslint": "^9.10.0",
+    "vitest": "^2.0.5"
+  }
+}
